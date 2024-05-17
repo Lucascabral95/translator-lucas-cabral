@@ -63,12 +63,21 @@ const TranslateSection = () => {
     };
 
     const notifyDelete = () => {
-        toast.success('Text deleted!', {
-            style: {
-                backgroundColor: '#2B1039',
-                color: 'white'
-            }
-        })
+        if (text === "") {
+            toast.error('No text found!', {
+                style: {
+                    backgroundColor: '#2B1039',
+                    color: 'white',
+                }
+            })
+        } else {
+            toast.success('Text deleted!', {
+                style: {
+                    backgroundColor: '#2B1039',
+                    color: 'white',
+                }
+            })
+        }
     };
 
     return (

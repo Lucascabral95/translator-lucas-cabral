@@ -17,26 +17,6 @@ const TranslateSection = () => {
     const [textAreaSelected, setTextAreaSelected] = useState(true);
     const [textAreaRelleno, setTextAreaRelleno] = useState("Write your text here...");
 
-    const handleCopyText = () => {
-        navigator.clipboard.writeText(text)
-        toast.success('Copied to clipboard!', {
-            style: {
-                backgroundColor: '#2B1039',
-                color: 'white'
-            }
-        })
-    };
-
-    const handleCopyResponse = () => {
-        navigator.clipboard.writeText(respuestaTraduccion)
-        toast.success('Copied to clipboard!', {
-            style: {
-                backgroundColor: '#2B1039',
-                color: 'white'
-            }
-        })
-    };
-
     async function traduccion() {
         const response = await axios.get(`https://api.mymemory.translated.net/get?q=${text}&langpair=${lenguajeSeleccionada}|${idiomaRespuesta}`)
         setRespuestaTraduccion(response.data.responseData.translatedText);
@@ -62,22 +42,48 @@ const TranslateSection = () => {
         window.speechSynthesis.speak(speech);
     };
 
+    const handleCopyText = () => {
+        navigator.clipboard.writeText(text)
+        const position = window.innerWidth < 479 ? "bottom-center" : "top-center";
+        const message = text === "" ? 'No text found!' : 'Copied to clipboard!';
+        const type = text === "" ? toast.error : toast.success;
+
+        type(message, {
+            position,
+            style: {
+                backgroundColor: '#2B1039',
+                color: 'white',
+            }
+        });
+    };
+
+    const handleCopyResponse = () => {
+        navigator.clipboard.writeText(respuestaTraduccion)
+        const position = window.innerWidth < 479 ? "bottom-center" : "top-center";
+        const message = respuestaTraduccion === "" ? 'No text found!' : 'Copied to clipboard!';
+        const type = respuestaTraduccion === "" ? toast.error : toast.success;
+    
+        type(message, {
+            position,
+            style: {
+                backgroundColor: '#2B1039',
+                color: 'white',
+            }
+        });
+    };
+
     const notifyDelete = () => {
-        if (text === "") {
-            toast.error('No text found!', {
-                style: {
-                    backgroundColor: '#2B1039',
-                    color: 'white',
-                }
-            })
-        } else {
-            toast.success('Text deleted!', {
-                style: {
-                    backgroundColor: '#2B1039',
-                    color: 'white',
-                }
-            })
-        }
+        const position = window.innerWidth < 479 ? "bottom-center" : "top-center";
+        const message = text === "" ? 'No text found!' : 'Text deleted!';
+        const type = text === "" ? toast.error : toast.success;
+
+        type(message, {
+            position,
+            style: {
+                backgroundColor: '#2B1039',
+                color: 'white',
+            }
+        });
     };
 
     return (
@@ -159,7 +165,7 @@ const TranslateSection = () => {
                         <div className="contenedor-de-tooltip">
                             <div className="icono icono-copy"
                                 onMouseEnter={() => setActiveDetail("delete")} onMouseLeave={() => setActiveDetail("")}
-                                onClick={() => { setText(""), setRespuestaTraduccion("") , notifyDelete() }}>
+                                onClick={() => { setText(""), setRespuestaTraduccion(""), notifyDelete() }}>
                                 <MdDelete className="icon" />
                             </div>
                             <div className="informacion-icono" style={{ display: activeDetail === "delete" ? "block" : "none" }}>

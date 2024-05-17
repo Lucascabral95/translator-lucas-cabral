@@ -198,15 +198,15 @@
 
 // MEDIAS QUERIES
 @media (min-width: 1024px) and (max-width: 1283px) {
-    .translate-section{
+    .translate-section {
         width: 1024px;
 
-        .traduccion-entrada{
+        .traduccion-entrada {
 
-            .lenguajes{
+            .lenguajes {
 
-                .lenguajes-disponibles{
-                    .len-lenguaje-fr{
+                .lenguajes-disponibles {
+                    .len-lenguaje-fr {
                         display: none;
                     }
                 }
@@ -507,6 +507,15 @@
                 .lenguajes-disponibles {
 
                     .len-mobile-lenguaje {
+                        display: none !important;
+                    }
+                }
+            }
+
+            .botones {
+                .sonido-copiar {
+
+                    .informacion-icono {
                         display: none !important;
                     }
                 }

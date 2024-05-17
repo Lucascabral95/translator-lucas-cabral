@@ -44,7 +44,7 @@ const TranslateSection = () => {
 
     const handleCopyText = () => {
         navigator.clipboard.writeText(text)
-        const position = window.innerWidth < 479 ? "bottom-center" : "top-center";
+        const position = window.innerWidth < 480 ? "bottom-center" : "top-center";
         const message = text === "" ? 'No text found!' : 'Copied to clipboard!';
         const type = text === "" ? toast.error : toast.success;
 
@@ -59,7 +59,7 @@ const TranslateSection = () => {
 
     const handleCopyResponse = () => {
         navigator.clipboard.writeText(respuestaTraduccion)
-        const position = window.innerWidth < 479 ? "bottom-center" : "top-center";
+        const position = window.innerWidth < 480 ? "bottom-center" : "top-center";
         const message = respuestaTraduccion === "" ? 'No text found!' : 'Copied to clipboard!';
         const type = respuestaTraduccion === "" ? toast.error : toast.success;
     
@@ -73,7 +73,7 @@ const TranslateSection = () => {
     };
 
     const notifyDelete = () => {
-        const position = window.innerWidth < 479 ? "bottom-center" : "top-center";
+        const position = window.innerWidth < 480 ? "bottom-center" : "top-center";
         const message = text === "" ? 'No text found!' : 'Text deleted!';
         const type = text === "" ? toast.error : toast.success;
 

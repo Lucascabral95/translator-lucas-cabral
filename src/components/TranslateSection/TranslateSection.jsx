@@ -26,7 +26,7 @@ const TranslateSection = () => {
             }
         })
     };
-    
+
     const handleCopyResponse = () => {
         navigator.clipboard.writeText(respuestaTraduccion)
         toast.success('Copied to clipboard!', {
@@ -60,6 +60,15 @@ const TranslateSection = () => {
         speech.rate = 1;
         speech.pitch = 1;
         window.speechSynthesis.speak(speech);
+    };
+
+    const notifyDelete = () => {
+        toast.success('Text deleted!', {
+            style: {
+                backgroundColor: '#2B1039',
+                color: 'white'
+            }
+        })
     };
 
     return (
@@ -141,7 +150,7 @@ const TranslateSection = () => {
                         <div className="contenedor-de-tooltip">
                             <div className="icono icono-copy"
                                 onMouseEnter={() => setActiveDetail("delete")} onMouseLeave={() => setActiveDetail("")}
-                                onClick={() => { setText(""), setRespuestaTraduccion("") }}>
+                                onClick={() => { setText(""), setRespuestaTraduccion("") , notifyDelete() }}>
                                 <MdDelete className="icon" />
                             </div>
                             <div className="informacion-icono" style={{ display: activeDetail === "delete" ? "block" : "none" }}>

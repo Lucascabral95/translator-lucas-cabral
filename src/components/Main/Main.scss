@@ -1,0 +1,62 @@
+.main {
+    width: 100%;
+
+    .titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 8% 0;
+
+        .icono {
+            margin: 0 10px 0 0;
+
+            .icon {
+                color: white;
+                width: 28px;
+                height: 28px;
+            }
+        }
+
+        h1 {
+            text-align: center;
+            margin: 0;
+            font-weight: 700;
+            font-size: 28px;
+        }
+    }
+}
+
+//MEDIAS QUERIES
+@media (max-width: 479px) {
+    .main {
+        .titulo {
+            margin: 120% 0 0 0;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .main {
+        width: 100%;
+
+        .titulo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 0 8% 0;
+
+            .icono {
+                margin: 0 10px 0 0;
+
+                .icon {
+                    width: 28px;
+                    height: 28px;
+                }
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.body {
+    color: white;
+    background-image: url("/img/fondo-app-traduccion.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    --color-text: #424956;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+
+    ::selection {
+        background-image: linear-gradient(to right, #F4E6F6, #CA47A9, #58386C);
+        color: #973E8A;
+    }
+
+    .contenedor {
+        max-width: 1280px;
+        margin: auto;
+    }
+}
+
+
+
+// MEDIAS QUERIES
+@media (min-width: 720px) and (max-width: 1023px) {
+    .body {
+
+        .contenedor {
+            min-width: 700px;
+            max-width: 1280px;
+        }
+    }
+}
+
+@media (max-width: 719px) {
+    .body {
+
+        .contenedor {
+            width: 100%;
+        }
+    }
+}

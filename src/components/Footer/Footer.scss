@@ -1,0 +1,64 @@
+.footer {
+    width: 100%;
+    padding: 12px 0;
+    // background-color: black;
+    background-color: transparent;
+
+    .contenedor-de-iconos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 6px 0;
+
+        .icono {
+            margin: 0 6px;
+
+            .icon {
+                // color: white;
+                color: black;
+                width: 22px;
+                height: 22px;
+            }
+        }
+    }
+
+    .descripcion {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            color: black;
+            margin: 0;
+            font-weight: 700;
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 479px) {
+    .footer {
+        padding: 8px 0;
+
+        .contenedor-de-iconos {
+            margin: 0 0 6px 0;
+
+            .icono {
+
+                .icon {
+                    width: 20px;
+                    color: white;
+                    height: 20px;
+                }
+            }
+        }
+        
+        .descripcion {
+            p {
+                color: white;
+                font-size: 15px;
+            }
+        }
+    }
+}

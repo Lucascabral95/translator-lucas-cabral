@@ -1,5 +1,5 @@
 import "./TranslateSection.scss"
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { AiFillSound, AiOutlineCopy } from "react-icons/ai";
 import { PiTranslateDuotone } from "react-icons/pi";
 import { MdDelete } from "react-icons/md";
@@ -18,7 +18,7 @@ const TranslateSection = () => {
     const [textAreaRelleno, setTextAreaRelleno] = useState("Write your text here...");
 
     async function traduccion() {
-        const response = await axios.get(`https://api.mymemory.translated.net/get?q=${text}&langpair=${lenguajeSeleccionada}|${idiomaRespuesta}`)
+        const response = await axios.get(`https://api.mymemory.net/get?q=${text}&langpair=${lenguajeSeleccionada}|${idiomaRespuesta}`)
         setRespuestaTraduccion(response.data.responseData.translatedText);
 
         console.log(`Lenguaje a traducir: ${lenguajeSeleccionada}. Lenguaje traducido: ${idiomaRespuesta}`);

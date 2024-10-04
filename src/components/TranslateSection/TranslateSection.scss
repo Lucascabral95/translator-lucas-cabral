@@ -218,7 +218,6 @@
 @media (min-width: 720px) and (max-width: 1023px) {
     .translate-section {
         display: flex;
-        // justify-content: space-between;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -353,19 +352,16 @@
 @media (max-width: 719px) {
     .translate-section {
         display: flex;
-        // justify-content: space-between;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         width: 100%;
-        // padding: 0 10px;
         padding: 0 3%;
         display: flex;
         align-items: center;
         opacity: 0.96;
 
         .traduccion-entrada {
-            // width: 49%;
             width: 98%;
             display: flex;
             flex-direction: column;
@@ -396,7 +392,6 @@
                         justify-content: center;
                         align-items: center;
                         padding: 4px 6px;
-                        // margin: 0 14px;
                         margin: 0 6px;
 
                         p {}
@@ -412,12 +407,9 @@
                         }
                     }
 
-                    //--------------
                     .len-lenguaje {
                         display: none;
                     }
-
-                    //--------------
                 }
             }
 
@@ -430,7 +422,6 @@
                 .entrada-texto {
                     width: 100%;
                     padding: 0 8px;
-                    // height: 180px;
                     height: 100px;
 
                 }

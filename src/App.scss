@@ -1,44 +1,58 @@
+$bp-md: 1023px;
+$bp-sm: 720px;
+$bp-sm-max: 719px;
+$bp-xs: 400px;
+
 .body {
-    color: white;
-    background-image: url("/img/fondo-app-traduccion.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    --color-text: #424956;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
+  color: white;
+  background-image: url("/img/fondo-app-traduccion.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  --color-text: #424956;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
 
-    ::selection {
-        background-image: linear-gradient(to right, #F4E6F6, #CA47A9, #58386C);
-        color: #973E8A;
-    }
+  ::selection {
+    background-image: linear-gradient(to right, #f4e6f6, #ca47a9, #58386c);
+    color: #973e8a;
+  }
 
-    .contenedor {
-        max-width: 1280px;
-        margin: auto;
-    }
+  .contenedor {
+    max-width: 1280px;
+    margin: auto;
+  }
 }
 
 // MEDIAS QUERIES
-@media (min-width: 720px) and (max-width: 1023px) {
-    .body {
-        height: auto;
+@media (min-width: $bp-sm) and (max-width: $bp-md) {
+  .body {
+    height: auto;
 
-        .contenedor {
-            min-width: 700px;
-            max-width: 1280px;
-        }
+    .contenedor {
+      min-width: 700px;
+      max-width: 1280px;
     }
+  }
 }
 
-@media (max-width: 719px) {
-    .body {
-
-        .contenedor {
-            width: 100%;
-        }
+@media (max-width: $bp-sm-max) {
+  .body {
+    .contenedor {
+      width: 100%;
     }
+  }
+}
+
+@media (max-width: $bp-xs) {
+  .body {
+    height: auto;
+
+    .contenedor {
+      width: 100%;
+    }
+  }
 }

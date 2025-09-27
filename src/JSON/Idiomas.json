@@ -1,471 +1,471 @@
 [
-    {
-        "idioma": "Spanish",
-        "lenguaje": "es"
-    },
-    {
-        "idioma": "English",
-        "lenguaje": "en"
-    },
-    {
-        "idioma": "German",
-        "lenguaje": "de"
-    },
-    {
-        "idioma": "Italian",
-        "lenguaje": "it"
-    },
-    {
-        "idioma": "Portuguese",
-        "lenguaje": "pt"
-    },
-    {
-        "idioma": "Russian",
-        "lenguaje": "ru"
-    },
-    {
-        "idioma": "Japanese",
-        "lenguaje": "ja"
-    },
-    {
-        "idioma": "Afrikaans",
-        "lenguaje": "af"
-    },
-    {
-        "idioma": "Arabic",
-        "lenguaje": "ar"
-    },
-    {
-        "idioma": "Armenian",
-        "lenguaje": "hy"
-    },
-    {
-        "idioma": "Azerbaijani",
-        "lenguaje": "az"
-    },
-    {
-        "idioma": "Bajan",
-        "lenguaje": "bj"
-    },
-    {
-        "idioma": "Basque",
-        "lenguaje": "eu"
-    },
-    {
-        "idioma": "Bemba",
-        "lenguaje": "bem"
-    },
-    {
-        "idioma": "Bengali",
-        "lenguaje": "bn"
-    },
-    {
-        "idioma": "Bielorussian",
-        "lenguaje": "be"
-    },
-    {
-        "idioma": "Bosnian",
-        "lenguaje": "bs"
-    },
-    {
-        "idioma": "Bulgarian",
-        "lenguaje": "bg"
-    },
-    {
-        "idioma": "Burmese",
-        "lenguaje": "my"
-    },
-    {
-        "idioma": "Catalan",
-        "lenguaje": "ca"
-    },
-    {
-        "idioma": "Cebuano",
-        "lenguaje": "ceb"
-    },
-    {
-        "idioma": "Chamorro",
-        "lenguaje": "ch"
-    },
-    {
-        "idioma": "Chinese (simplified)",
-        "lenguaje": "zh"
-    },
-    {
-        "idioma": "Comorian",
-        "lenguaje": "sw"
-    },
-    {
-        "idioma": "Cophti",
-        "lenguaje": "cop"
-    },
-    {
-        "idioma": "Croatian",
-        "lenguaje": "hr"
-    },
-    {
-        "idioma": "Czech",
-        "lenguaje": "cs"
-    },
-    {
-        "idioma": "Danish",
-        "lenguaje": "da"
-    },
-    {
-        "idioma": "Dutch",
-        "lenguaje": "nl"
-    },
-    {
-        "idioma": "Dzongkha",
-        "lenguaje": "dz"
-    },
-    {
-        "idioma": "Esperanto",
-        "lenguaje": "eo"
-    },
-    {
-        "idioma": "Estonian",
-        "lenguaje": "et"
-    },
-    {
-        "idioma": "Fanagalo",
-        "lenguaje": "fn"
-    },
-    {
-        "idioma": "Faroese",
-        "lenguaje": "fo"
-    },
-    {
-        "idioma": "Finnish",
-        "lenguaje": "fi"
-    },
-    {
-        "idioma": "Galician",
-        "lenguaje": "gl"
-    },
-    {
-        "idioma": "Georgian",
-        "lenguaje": "ka"
-    },
-    {
-        "idioma": "German",
-        "lenguaje": "de" 
-    },
-    {
-        "idioma": "Greek (Classical)",
-        "lenguaje": "grc"
-    },
-    {
-        "idioma": "Greek",
-        "lenguaje": "el"
-    },
-    {
-        "idioma": "Gujarati",
-        "lenguaje": "gu"
-    },
-    {
-        "idioma": "Hausa",
-        "lenguaje": "ha"
-    },
-    {
-        "idioma": "Hindi",
-        "lenguaje": "hi"
-    },
-    {
-        "idioma": "Hungarian",
-        "lenguaje": "hu"
-    },
-    {
-        "idioma": "Icelandic",
-        "lenguaje": "is"
-    },
-    {
-        "idioma": "Indonesian",
-        "lenguaje": "id"
-    },
-    {
-        "idioma": "Irish Gaelic",
-        "lenguaje": "ga"
-    },
-    {
-        "idioma": "Italian",
-        "lenguaje": "it"
-    }, 
-    {
-        "idioma": "Japanese",
-        "lenguaje": "ja"
-    },
-    {
-        "idioma": "Javanese",
-        "lenguaje": "jv"
-    },
-    {
-        "idioma": "Kabuverdianu",
-        "lenguaje": "kea"
-    },
-    {
-        "idioma": "Kabylian",
-        "lenguaje": "kab"
-    },
-    {
-        "idioma": "Kannada",
-        "lenguaje": "kn"
-    },
-    {
-        "idioma": "Kazakh",
-        "lenguaje": "kk"
-    },
-    {
-        "idioma": "Khmer",
-        "lenguaje": "km"
-    },
-    {
-        "idioma": "Kinyarwanda",
-        "lenguaje": "rw"
-    },
-    {
-        "idioma": "Kirundi",
-        "lenguaje": "rn"
-    },
-    {
-        "idioma": "Korean",
-        "lenguaje": "ko"
-        },
-    {
-        "idioma": "Kurdish Sorani",
-        "lenguaje": "ckb"
-    },
-    {
-        "idioma": "Kurdish",
-        "lenguaje": "ku"
-    },
-    {
-        "idioma": "Kyrgyz",
-        "lenguaje": "ky"
-    },
-    {
-        "idioma": "Lao",
-        "lenguaje": "lo"
-    },
-    {
-        "idioma": "Latin",
-        "lenguaje": "la"
-    },
-    {
-        "idioma": "Latvian",
-        "lenguaje": "lv"
-    },
-    {
-        "idioma": "Lithuanian",
-        "lenguaje": "lt"
-    },
-    {
-        "idioma": "Luxembourgish",
-        "lenguaje": "lb"
-    },
-    {
-        "idioma": "Macedonian",
-        "lenguaje": "mk"
-        },
-    {
-        "idioma": "Malayalam",
-        "lenguaje": "ml"
-    },
-    {
-        "idioma": "Malay",
-        "lenguaje": "ms"
-    },
-    {
-        "idioma": "Maltese",
-        "lenguaje": "mt"
-    },
-    {
-        "idioma": "Manx Gaelic",
-        "lenguaje": "gv"
-    },
-    {
-        "idioma": "Marathi",
-        "lenguaje": "mr"
-    },
-    {
-        "idioma": "Mongolian",
-        "lenguaje": "mn"
-    },
-    {
-        "idioma": "Nepali",
-        "lenguaje": "ne"
-    },
-    {
-        "idioma": "Norwegian",
-        "lenguaje": "no"
-    },
-    {
-        "idioma": "Nyanja",
-        "lenguaje": "ny"
-    },
-    {
-        "idioma": "Pakistani",
-        "lenguaje": "ur"
-    },
-    {
-        "idioma": "Papiamentu",
-        "lenguaje": "pap"
-    },
-    {
-        "idioma": "Pashto",
-        "lenguaje": "ps"
-    },
-    {
-        "idioma": "Persian",
-        "lenguaje": "fa"
-    },
-    {
-        "idioma": "Polish",
-        "lenguaje": "pl"
-    },
-    {
-        "idioma": "Portuguese",
-        "lenguaje": "pt"
-    },
-    {
-        "idioma": "Quechua",
-        "lenguaje": "qu"
-    },
-    {
-        "idioma": "Romanian",
-        "lenguaje": "ro"
-    },
-    {
-        "idioma": "Russian",
-        "lenguaje": "ru"
-    },
-    {
-        "idioma": "Samoan",
-        "lenguaje": "sm"
-    },
-    {
-        "idioma": "Serbian",
-        "lenguaje": "sr"
-    },
-    {
-        "idioma": "Shona",
-        "lenguaje": "sn"
-    },
+  {
+    "idioma": "Spanish",
+    "lenguaje": "es"
+  },
+  {
+    "idioma": "English",
+    "lenguaje": "en"
+  },
+  {
+    "idioma": "German",
+    "lenguaje": "de"
+  },
+  {
+    "idioma": "Italian",
+    "lenguaje": "it"
+  },
+  {
+    "idioma": "Portuguese",
+    "lenguaje": "pt"
+  },
+  {
+    "idioma": "Russian",
+    "lenguaje": "ru"
+  },
+  {
+    "idioma": "Japanese",
+    "lenguaje": "ja"
+  },
+  {
+    "idioma": "Afrikaans",
+    "lenguaje": "af"
+  },
+  {
+    "idioma": "Arabic",
+    "lenguaje": "ar"
+  },
+  {
+    "idioma": "Armenian",
+    "lenguaje": "hy"
+  },
+  {
+    "idioma": "Azerbaijani",
+    "lenguaje": "az"
+  },
+  {
+    "idioma": "Bajan",
+    "lenguaje": "bj"
+  },
+  {
+    "idioma": "Basque",
+    "lenguaje": "eu"
+  },
+  {
+    "idioma": "Bemba",
+    "lenguaje": "bem"
+  },
+  {
+    "idioma": "Bengali",
+    "lenguaje": "bn"
+  },
+  {
+    "idioma": "Bielorussian",
+    "lenguaje": "be"
+  },
+  {
+    "idioma": "Bosnian",
+    "lenguaje": "bs"
+  },
+  {
+    "idioma": "Bulgarian",
+    "lenguaje": "bg"
+  },
+  {
+    "idioma": "Burmese",
+    "lenguaje": "my"
+  },
+  {
+    "idioma": "Catalan",
+    "lenguaje": "ca"
+  },
+  {
+    "idioma": "Cebuano",
+    "lenguaje": "ceb"
+  },
+  {
+    "idioma": "Chamorro",
+    "lenguaje": "ch"
+  },
+  {
+    "idioma": "Chinese (simplified)",
+    "lenguaje": "zh"
+  },
+  {
+    "idioma": "Comorian",
+    "lenguaje": "sw"
+  },
+  {
+    "idioma": "Cophti",
+    "lenguaje": "cop"
+  },
+  {
+    "idioma": "Croatian",
+    "lenguaje": "hr"
+  },
+  {
+    "idioma": "Czech",
+    "lenguaje": "cs"
+  },
+  {
+    "idioma": "Danish",
+    "lenguaje": "da"
+  },
+  {
+    "idioma": "Dutch",
+    "lenguaje": "nl"
+  },
+  {
+    "idioma": "Dzongkha",
+    "lenguaje": "dz"
+  },
+  {
+    "idioma": "Esperanto",
+    "lenguaje": "eo"
+  },
+  {
+    "idioma": "Estonian",
+    "lenguaje": "et"
+  },
+  {
+    "idioma": "Fanagalo",
+    "lenguaje": "fn"
+  },
+  {
+    "idioma": "Faroese",
+    "lenguaje": "fo"
+  },
+  {
+    "idioma": "Finnish",
+    "lenguaje": "fi"
+  },
+  {
+    "idioma": "Galician",
+    "lenguaje": "gl"
+  },
+  {
+    "idioma": "Georgian",
+    "lenguaje": "ka"
+  },
+  {
+    "idioma": "German",
+    "lenguaje": "de"
+  },
+  {
+    "idioma": "Greek (Classical)",
+    "lenguaje": "grc"
+  },
+  {
+    "idioma": "Greek",
+    "lenguaje": "el"
+  },
+  {
+    "idioma": "Gujarati",
+    "lenguaje": "gu"
+  },
+  {
+    "idioma": "Hausa",
+    "lenguaje": "ha"
+  },
+  {
+    "idioma": "Hindi",
+    "lenguaje": "hi"
+  },
+  {
+    "idioma": "Hungarian",
+    "lenguaje": "hu"
+  },
+  {
+    "idioma": "Icelandic",
+    "lenguaje": "is"
+  },
+  {
+    "idioma": "Indonesian",
+    "lenguaje": "id"
+  },
+  {
+    "idioma": "Irish Gaelic",
+    "lenguaje": "ga"
+  },
+  {
+    "idioma": "Italian",
+    "lenguaje": "it"
+  },
+  {
+    "idioma": "Japanese",
+    "lenguaje": "ja"
+  },
+  {
+    "idioma": "Javanese",
+    "lenguaje": "jv"
+  },
+  {
+    "idioma": "Kabuverdianu",
+    "lenguaje": "kea"
+  },
+  {
+    "idioma": "Kabylian",
+    "lenguaje": "kab"
+  },
+  {
+    "idioma": "Kannada",
+    "lenguaje": "kn"
+  },
+  {
+    "idioma": "Kazakh",
+    "lenguaje": "kk"
+  },
+  {
+    "idioma": "Khmer",
+    "lenguaje": "km"
+  },
+  {
+    "idioma": "Kinyarwanda",
+    "lenguaje": "rw"
+  },
+  {
+    "idioma": "Kirundi",
+    "lenguaje": "rn"
+  },
+  {
+    "idioma": "Korean",
+    "lenguaje": "ko"
+  },
+  {
+    "idioma": "Kurdish Sorani",
+    "lenguaje": "ckb"
+  },
+  {
+    "idioma": "Kurdish",
+    "lenguaje": "ku"
+  },
+  {
+    "idioma": "Kyrgyz",
+    "lenguaje": "ky"
+  },
+  {
+    "idioma": "Lao",
+    "lenguaje": "lo"
+  },
+  {
+    "idioma": "Latin",
+    "lenguaje": "la"
+  },
+  {
+    "idioma": "Latvian",
+    "lenguaje": "lv"
+  },
+  {
+    "idioma": "Lithuanian",
+    "lenguaje": "lt"
+  },
+  {
+    "idioma": "Luxembourgish",
+    "lenguaje": "lb"
+  },
+  {
+    "idioma": "Macedonian",
+    "lenguaje": "mk"
+  },
+  {
+    "idioma": "Malayalam",
+    "lenguaje": "ml"
+  },
+  {
+    "idioma": "Malay",
+    "lenguaje": "ms"
+  },
+  {
+    "idioma": "Maltese",
+    "lenguaje": "mt"
+  },
+  {
+    "idioma": "Manx Gaelic",
+    "lenguaje": "gv"
+  },
+  {
+    "idioma": "Marathi",
+    "lenguaje": "mr"
+  },
+  {
+    "idioma": "Mongolian",
+    "lenguaje": "mn"
+  },
+  {
+    "idioma": "Nepali",
+    "lenguaje": "ne"
+  },
+  {
+    "idioma": "Norwegian",
+    "lenguaje": "no"
+  },
+  {
+    "idioma": "Nyanja",
+    "lenguaje": "ny"
+  },
+  {
+    "idioma": "Pakistani",
+    "lenguaje": "ur"
+  },
+  {
+    "idioma": "Papiamentu",
+    "lenguaje": "pap"
+  },
+  {
+    "idioma": "Pashto",
+    "lenguaje": "ps"
+  },
+  {
+    "idioma": "Persian",
+    "lenguaje": "fa"
+  },
+  {
+    "idioma": "Polish",
+    "lenguaje": "pl"
+  },
+  {
+    "idioma": "Portuguese",
+    "lenguaje": "pt"
+  },
+  {
+    "idioma": "Quechua",
+    "lenguaje": "qu"
+  },
+  {
+    "idioma": "Romanian",
+    "lenguaje": "ro"
+  },
+  {
+    "idioma": "Russian",
+    "lenguaje": "ru"
+  },
+  {
+    "idioma": "Samoan",
+    "lenguaje": "sm"
+  },
+  {
+    "idioma": "Serbian",
+    "lenguaje": "sr"
+  },
+  {
+    "idioma": "Shona",
+    "lenguaje": "sn"
+  },
 
-     {
-        "idioma": "Sinhala",
-        "lenguaje": "si"
-     },
-     {
-        "idioma": "Slovak",
-        "lenguaje": "sk"
-     },
-     {
-        "idioma": "Slovenian",
-        "lenguaje": "sl"
-     },
-     {
-        "idioma": "Somali",
-        "lenguaje": "so"
-     },
-     {
-        "idioma": "Sotho, Southern",
-        "lenguaje": "st"
-     },
-     {
-        "idioma": "Sranan Tongo",
-        "lenguaje": "srn"
-     },
-     {
-        "idioma": "Swahili",
-        "lenguaje": "sw"
-     },
-     {
-        "idioma": "Swedish",
-        "lenguaje": "sv"
-     },
-     {
-        "idioma": "Swiss German",
-        "lenguaje": "de"
-     },
-     {
-        "idioma": "Syriac (Aramaic)",
-        "lenguaje": "syc"
-     },
-     {
-        "idioma": "Tagalog",
-        "lenguaje": "tl"
-     },
-     {
-        "idioma": "Tajik",
-        "lenguaje": "tg"
-     },
-     {
-        "idioma": "Tamashek (Tuareg)",
-        "lenguaje": "tmh"
-     },
-     {
-        "idioma": "Tamil",
-        "lenguaje": "ta"
-     },
-     {
-        "idioma": "Telugu",
-        "lenguaje": "te"
-     },
-     {
-        "idioma": "Thai",
-        "lenguaje": "th"
-     },
-     {
-        "idioma": "Tibetan",
-        "lenguaje": "bo"
-     },
-     {
-        "idioma": "Tigrinya",
-        "lenguaje": "ti"
-     },
-     {
-        "idioma": "Tongan",
-        "lenguaje": "to"
-     },
-     {
-        "idioma": "Turkish",
-        "lenguaje": "tr"
-     },
-     {
-        "idioma": "Turkmen",
-        "lenguaje": "tk"
-     },
-     {
-        "idioma": "Ukrainian",
-        "lenguaje": "uk"
-     },
-     {
-        "idioma": "Uma",
-        "lenguaje": "om"
-     },
-     {
-        "idioma": "Uzbek",
-        "lenguaje": "uz"
-     },
-     {
-        "idioma": "Vietnamese",
-        "lenguaje": "vi"
-     },
-     {
-        "idioma": "Welsh",
-        "lenguaje": "cy"
-     },
-     {
-        "idioma": "Xhosa",
-        "lenguaje": "xh"
-     },
-     {
-        "idioma": "Yiddish",
-        "lenguaje": "yi"
-     },
-     { 
-        "idioma": "Zulu",
-        "lenguaje": "zu"
-     }
+  {
+    "idioma": "Sinhala",
+    "lenguaje": "si"
+  },
+  {
+    "idioma": "Slovak",
+    "lenguaje": "sk"
+  },
+  {
+    "idioma": "Slovenian",
+    "lenguaje": "sl"
+  },
+  {
+    "idioma": "Somali",
+    "lenguaje": "so"
+  },
+  {
+    "idioma": "Sotho, Southern",
+    "lenguaje": "st"
+  },
+  {
+    "idioma": "Sranan Tongo",
+    "lenguaje": "srn"
+  },
+  {
+    "idioma": "Swahili",
+    "lenguaje": "sw"
+  },
+  {
+    "idioma": "Swedish",
+    "lenguaje": "sv"
+  },
+  {
+    "idioma": "Swiss German",
+    "lenguaje": "de"
+  },
+  {
+    "idioma": "Syriac (Aramaic)",
+    "lenguaje": "syc"
+  },
+  {
+    "idioma": "Tagalog",
+    "lenguaje": "tl"
+  },
+  {
+    "idioma": "Tajik",
+    "lenguaje": "tg"
+  },
+  {
+    "idioma": "Tamashek (Tuareg)",
+    "lenguaje": "tmh"
+  },
+  {
+    "idioma": "Tamil",
+    "lenguaje": "ta"
+  },
+  {
+    "idioma": "Telugu",
+    "lenguaje": "te"
+  },
+  {
+    "idioma": "Thai",
+    "lenguaje": "th"
+  },
+  {
+    "idioma": "Tibetan",
+    "lenguaje": "bo"
+  },
+  {
+    "idioma": "Tigrinya",
+    "lenguaje": "ti"
+  },
+  {
+    "idioma": "Tongan",
+    "lenguaje": "to"
+  },
+  {
+    "idioma": "Turkish",
+    "lenguaje": "tr"
+  },
+  {
+    "idioma": "Turkmen",
+    "lenguaje": "tk"
+  },
+  {
+    "idioma": "Ukrainian",
+    "lenguaje": "uk"
+  },
+  {
+    "idioma": "Uma",
+    "lenguaje": "om"
+  },
+  {
+    "idioma": "Uzbek",
+    "lenguaje": "uz"
+  },
+  {
+    "idioma": "Vietnamese",
+    "lenguaje": "vi"
+  },
+  {
+    "idioma": "Welsh",
+    "lenguaje": "cy"
+  },
+  {
+    "idioma": "Xhosa",
+    "lenguaje": "xh"
+  },
+  {
+    "idioma": "Yiddish",
+    "lenguaje": "yi"
+  },
+  {
+    "idioma": "Zulu",
+    "lenguaje": "zu"
+  }
 ]
